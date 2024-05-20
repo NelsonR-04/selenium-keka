@@ -1,14 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from dotenv import load_dotenv
-import os
 import time
 
-load_dotenv()
-
-USERNAME = os.getenv('USERNAME')
-PASSWORD = os.getenv('PASSWORD')
+USERNAME='nelson.rondon@nulogic.io'
+PASSWORD='Somewhereibelong1'
 
 driver = webdriver.Chrome()
 driver.get('https://nutech.keka.com/')
